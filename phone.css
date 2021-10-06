@@ -1,0 +1,56 @@
+
+.leftnav ul{
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.6s ease-out;
+    height: 300px;
+}
+.leftnav{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.rightnav{
+    margin: 0 auto;    
+}
+#search-box{
+    margin: 0 auto;
+}
+.burger{
+    display: block;
+}
+.nav-h{
+    height: 60px;
+}
+.nav-v{
+    opacity: 0;
+}
+.mainbox{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.resp{
+    width: 100%;
+}
+.section{
+    flex-direction: column-reverse;
+}
+.secondsection{
+    height:505%;
+}
+.paras{
+    padding: 0 0px;
+    text-align: center;
+}
+.online-img{
+    width: 100%;
+}
+#footer{
+    text-align: center;
+}
+.thirdsection{
+    height: 70%;
+}
